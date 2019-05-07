@@ -68,34 +68,45 @@ func (q *Quantizer) EvaluateMatches(length uint32) {
 	var wg sync.WaitGroup
 
 
-	matchesChan := make(chan uint64)
+	matchesChan := make(chan uint64, 10000)
 	doneChan := make(chan uint64)
+	doneListener := make(chan uint64)
+
+	go func() {
+		fmt.Printf("Starting listener\n")
+		for {
+			select {
+			case <- doneChan:
+				close(doneListener)
+				return
+			case match := <- matchesChan:
+				matches += match
+
+			}
+
+		}
+	}()
+
+	fullSize := len(q.Sample)
+	//TODO: Dis is broke b/c there is uint math that is going nuts.  Refactor for data types.
+	for xOffset := length; fullSize + int(xOffset) > 0; xOffset -- {
+		for yOffset := length; fullSize + int(yOffset) > 0; yOffset -- {
+			//fmt.Printf("%v\n",uint32(len(q.Sample)) - yOffset)
+			wg.Add(1)
+			go q.evaluate(eval, xOffset, yOffset, matchesChan, &wg)
+			fmt.Printf("Completed %v\n", yOffset)
+
+
+		}
+	}
+	//go q.evaluate(eval, length, length, matchesChan, &wg)
 
 	go func() {
 		defer close(doneChan)
 		wg.Wait()
 	}()
 
-	for xOffset := length; xOffset > 0; xOffset -- {
-		for yOffset := length; yOffset > 0; yOffset -- {
-			wg.Add(1)
-			go q.evaluate(eval, xOffset, yOffset, matchesChan, &wg)
-
-		}
-	}
-	//go q.evaluate(eval, length, length, matchesChan, &wg)
-
-
-	listener: for {
-		select {
-		case <- doneChan:
-			break listener
-		case match := <- matchesChan:
-			matches += match
-
-		}
-	}
-
+	<- doneListener
 	//offset := length
 	//for i := uint32(0); i + offset < dimension  && i <= uint32(len(q.Sample)); i++ {
 	//	for j := uint32(0); j + offset < dimension  && j <= uint32(len(q.Sample)); j++ {
