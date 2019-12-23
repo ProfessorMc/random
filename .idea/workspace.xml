@@ -2,48 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b67e3fcc-77cd-4c67-b612-ffd31f283a37" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/quantization.go" beforeDir="false" afterPath="$PROJECT_DIR$/quantization.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quantization_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/quantization_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nist/monobit/monobit.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nist/monobit/monobit_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/quantization.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="90" column="93" selection-start-line="90" selection-start-column="93" selection-end-line="90" selection-end-column="93" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/go.mod">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quantization_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-              <folding>
-                <element signature="e#16#45#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -52,41 +19,15 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" path="/usr/local/go" />
+  <component name="GOROOT" path="D:\Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/go.mod" />
-        <option value="$PROJECT_DIR$/quantization_test.go" />
-        <option value="$PROJECT_DIR$/quantization.go" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1920" />
-    <option name="height" value="1200" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="random" type="b2602c69:ProjectViewProjectNode" />
-              <item name="random" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectId" id="1VONjDFejaXJwt0tFTiUGnlBjX3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -97,22 +38,38 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Go Test.TestNewQuantizer in quantization_test.go">
+  <component name="RunManager" selected="Go Test.TestMonobitFull in github.com/ProfessorMc/random/nist/monobit">
+    <configuration name="TestMonobit in github.com/ProfessorMc/random/nist/monobit" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="random" />
+      <working_directory value="$PROJECT_DIR$/nist/monobit" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/ProfessorMc/random/nist/monobit" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestMonobit$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestMonobitFull in github.com/ProfessorMc/random/nist/monobit" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="random" />
+      <working_directory value="$PROJECT_DIR$/nist/monobit" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/ProfessorMc/random/nist/monobit" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestMonobitFull$" />
+      <method v="2" />
+    </configuration>
     <configuration name="TestNewQuantizer in quantization_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="random" />
       <working_directory value="$PROJECT_DIR$" />
@@ -138,71 +95,29 @@
     <list>
       <item itemvalue="Go Test.TestNewQuantizer in quantization_test.go" />
       <item itemvalue="Go Test.TestRaw in github.com/ProfessorMc/random" />
+      <item itemvalue="Go Test.TestMonobit in github.com/ProfessorMc/random/nist/monobit" />
+      <item itemvalue="Go Test.TestMonobitFull in github.com/ProfessorMc/random/nist/monobit" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestMonobitFull in github.com/ProfessorMc/random/nist/monobit" />
+        <item itemvalue="Go Test.TestMonobit in github.com/ProfessorMc/random/nist/monobit" />
         <item itemvalue="Go Test.TestNewQuantizer in quantization_test.go" />
         <item itemvalue="Go Test.TestRaw in github.com/ProfessorMc/random" />
       </list>
     </recent_temporary>
   </component>
-  <component name="TestHistory">
-    <history-entry file="TestNewQuantizer_in_quantization_test_go - 2019.05.07 at 02h 16m 32s.xml">
-      <configuration name="TestNewQuantizer in quantization_test.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestNewQuantizer_in_quantization_test_go - 2019.05.07 at 02h 16m 58s.xml">
-      <configuration name="TestNewQuantizer in quantization_test.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestNewQuantizer_in_quantization_test_go - 2019.05.07 at 02h 17m 04s.xml">
-      <configuration name="TestNewQuantizer in quantization_test.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestNewQuantizer_in_quantization_test_go - 2019.05.07 at 02h 17m 40s.xml">
-      <configuration name="TestNewQuantizer in quantization_test.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestNewQuantizer_in_quantization_test_go - 2019.05.07 at 02h 18m 07s.xml">
-      <configuration name="TestNewQuantizer in quantization_test.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestNewQuantizer_in_quantization_test_go - 2019.05.07 at 02h 18m 52s.xml">
-      <configuration name="TestNewQuantizer in quantization_test.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestNewQuantizer_in_quantization_test_go - 2019.05.07 at 02h 19m 40s.xml">
-      <configuration name="TestNewQuantizer in quantization_test.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestNewQuantizer_in_quantization_test_go - 2019.05.07 at 02h 20m 47s.xml">
-      <configuration name="TestNewQuantizer in quantization_test.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestNewQuantizer_in_quantization_test_go - 2019.05.07 at 02h 21m 11s.xml">
-      <configuration name="TestNewQuantizer in quantization_test.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestNewQuantizer_in_quantization_test_go - 2019.05.07 at 02h 24m 15s.xml">
-      <configuration name="TestNewQuantizer in quantization_test.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32978722" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39982268" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32978722" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="make" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-    </layout>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -210,50 +125,58 @@
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
   </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="180" key="#GOROOT" timestamp="1577120401241">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="180" key="#GOROOT/0.0.1920.1040@0.0.1920.1040" timestamp="1577120401241" />
+    <state width="916" height="281" key="GridCell.Tab.0.bottom" timestamp="1577126400849">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="916" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577126400849" />
+    <state width="916" height="281" key="GridCell.Tab.0.center" timestamp="1577126400848">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="916" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577126400848" />
+    <state width="916" height="281" key="GridCell.Tab.0.left" timestamp="1577126400848">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="916" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577126400848" />
+    <state width="916" height="281" key="GridCell.Tab.0.right" timestamp="1577126400849">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="916" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577126400849" />
+    <state width="916" height="347" key="GridCell.Tab.1.bottom" timestamp="1577125620538">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="916" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577125620538" />
+    <state width="916" height="347" key="GridCell.Tab.1.center" timestamp="1577125620538">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="916" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577125620538" />
+    <state width="916" height="347" key="GridCell.Tab.1.left" timestamp="1577125620538">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="916" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577125620538" />
+    <state width="916" height="347" key="GridCell.Tab.1.right" timestamp="1577125620538">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="916" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577125620538" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/quantization.go</url>
           <line>114</line>
-          <properties />
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/nist/monobit/monobit.go</url>
+          <line>40</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/go.sum" />
-    <entry file="file://$PROJECT_DIR$/go.mod">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/go/src/runtime/panic.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="696" selection-start-line="696" selection-end-line="696" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quantization_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-          <folding>
-            <element signature="e#16#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quantization.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="90" column="93" selection-start-line="90" selection-start-column="93" selection-end-line="90" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
